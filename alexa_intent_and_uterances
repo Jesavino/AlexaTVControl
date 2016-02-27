@@ -1,0 +1,28 @@
+### Intents
+
+{
+  "intents": [
+    {
+      "intent": "TelevisionIntent",
+      "slots": [
+        {
+          "name": "Action",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}
+
+### Sample Uterances
+
+TelevisionIntent turn {on|Action} the television
+TelevisionIntent turn {on|Action} the TV
+TelevisionIntent turn {off|Action} the television
+TelevisionIntent turn {off|Action} the TV
+TelevisionIntent turn {on|Action}
+TelevisionIntent turn {off|Action}
